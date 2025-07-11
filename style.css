@@ -1,0 +1,71 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hero Section */
+.appix-hero {
+  background-color: #f5f7ff;
+  background-image: url('assets/Hero-bg.png'); /* Adjust path as needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+/* Container */
+.appix-container {
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+/* Header */
+.appix-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.appix-logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #4a4fff;
+}
+.appix-content {
+    padding-bottom: 100px;
+}
+/* Buttons */
+.appix-btn {
+  background-color: #4a4fff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.appix-btn:hover {
+  background-color: #3737e1;
+}
+
+.appix-signup {
+  font-size: 14px;
+}
+
+.appix-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin-bottom: 30px;
+}
+
+.appix-focus-btn {
+  font-size: 14px;
+}

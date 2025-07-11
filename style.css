@@ -69,3 +69,64 @@ body {
 .appix-focus-btn {
   font-size: 14px;
 }
+
+.appix-action {
+  background-color: #f7f9ff;
+  padding: 80px 20px;
+}
+
+.appix-action-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.appix-action-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.appix-action-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin-bottom: 16px;
+}
+
+.appix-action-desc {
+  font-size: 16px;
+  color: #6b6b6b;
+  margin-bottom: 24px;
+  max-width: 500px;
+}
+
+.appix-action-btn {
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: #4a4fff;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.appix-action-btn:hover {
+  background-color: #3737e1;
+}
+
+.appix-action-image {
+  flex: 1;
+  text-align: right;
+  min-width: 300px;
+}
+
+.appix-action-image img {
+  max-width: 100%;
+  border-radius: 24px;
+}

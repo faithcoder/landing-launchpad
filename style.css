@@ -1,178 +1,264 @@
-
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 /* Hero Section */
 .appix-hero {
-  background-color: #f5f7ff;
-  background-image: url('assets/Hero-bg.png'); /* Adjust path as needed */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px 0;
+    background-color: #f5f7ff;
+    background-image: url('assets/Hero-bg.png');
+    /* Adjust path as needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
 }
 
 /* Container */
 .appix-container {
-  width: 90%;
-  max-width: 1200px;
-  text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
 }
 
 /* Header */
 .appix-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
 }
 
 .appix-logo {
-  font-weight: bold;
-  font-size: 20px;
-  color: #4a4fff;
+    font-weight: bold;
+    font-size: 20px;
+    color: #4a4fff;
 }
+
 .appix-content {
     padding-bottom: 100px;
 }
+
 /* Buttons */
 .appix-btn {
-  background-color: #4a4fff;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-weight: 500;
-  transition: background 0.3s ease;
+    background-color: #4a4fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background 0.3s ease;
 }
 
 .appix-btn:hover {
-  background-color: #3737e1;
+    background-color: #3737e1;
 }
 
 .appix-signup {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .appix-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #1f1f1f;
-  margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f1f1f;
+    margin-bottom: 30px;
 }
 
 .appix-focus-btn {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .appix-action {
-  background-color: #f7f9ff;
-  padding: 80px 20px;
+    background-color: #f7f9ff;
+    padding: 80px 20px;
 }
 
 .appix-action-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .appix-action-text {
-  flex: 1;
-  min-width: 300px;
+    flex: 1;
+    min-width: 300px;
 }
 
 .appix-action-title {
-  font-size: 28px;
-  font-weight: 700;
-  color: #1f1f1f;
-  margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1f1f1f;
+    margin-bottom: 16px;
 }
 
 .appix-action-desc {
-  font-size: 16px;
-  color: #6b6b6b;
-  margin-bottom: 24px;
-  max-width: 500px;
+    font-size: 16px;
+    color: #6b6b6b;
+    margin-bottom: 24px;
+    max-width: 500px;
 }
 
 .appix-action-btn {
-  font-size: 14px;
-  padding: 10px 20px;
-  background-color: #4a4fff;
-  color: #fff;
-  border-radius: 8px;
-  text-decoration: none;
-  display: inline-block;
-  font-weight: 500;
-  transition: background 0.3s ease;
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: #4a4fff;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    transition: background 0.3s ease;
 }
 
 .appix-action-btn:hover {
-  background-color: #3737e1;
+    background-color: #3737e1;
 }
 
 .appix-action-image {
-  flex: 1;
-  text-align: right;
-  min-width: 300px;
+    flex: 1;
+    text-align: right;
+    min-width: 300px;
 }
 
 .appix-action-image img {
-  max-width: 100%;
-  border-radius: 24px;
+    max-width: 100%;
+    border-radius: 24px;
 }
 
 
 .appix-productive {
-  background-color: #f5f6fa;
-  padding: 60px 20px;
+    background-color: #f5f6fa;
+    padding: 60px 20px;
 }
 
 .appix-productive-container {
-  background-color: #e8eaff;
-  border-radius: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 40px 20px;
+    background-color: #e8eaff;
+    border-radius: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
 }
 
 .appix-productive-heading {
-  font-size: 24px;
-  font-weight: 700;
-  color: #1f1f1f;
-  margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f1f1f;
+    margin-bottom: 40px;
 }
 
 .appix-productive-stats {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .appix-productive-item {
-  flex: 1;
-  min-width: 120px;
+    flex: 1;
+    min-width: 120px;
 }
 
 .appix-productive-number {
-  font-size: 60px;
-  font-weight: 700;
-  color: #4a4fff;
-  margin-bottom: 8px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #4a4fff;
+    margin-bottom: 8px;
 }
 
 .appix-productive-label {
-  font-size: 14px;
-  color: #666;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.appix-testimonials-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.appix-section-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 60px;
+}
+
+.appix-testimonials-grid {
+    display: flex;
+    gap: 30px;
+}
+
+.appix-testimonial-card {
+    background: white;
+    border-radius: 12px;
+    padding: 40px 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: left;
+}
+
+.appix-stars {
+    display: flex;
+    justify-content: left;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.fas.fa-star {
+    color: #ffc107;
+    font-size: 16px;
+}
+
+.appix-testimonial-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.appix-testimonial-text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.appix-reviewer-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.appix-reviewer-avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.appix-reviewer-details {
+    text-align: left;
+}
+
+.appix-reviewer-name {
+    font-weight: 500;
+    color: #333;
+    font-size: 14px;
+}
+
+.appix-reviewer-date {
+    color: #999;
+    font-size: 13px;
+    margin-top: 2px;
 }

@@ -1,14 +1,12 @@
 body {
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
 }
 
-/* Hero Section */
 .appix-hero {
     background-color: #f5f7ff;
     background-image: url('assets/Hero-bg.png');
-    /* Adjust path as needed */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -17,15 +15,12 @@ body {
     justify-content: center;
     padding: 20px 0;
 }
-
-/* Container */
 .appix-container {
     width: 90%;
     max-width: 1200px;
     text-align: center;
 }
 
-/* Header */
 .appix-header {
     display: flex;
     justify-content: space-between;
@@ -40,10 +35,9 @@ body {
 }
 
 .appix-content {
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 
-/* Buttons */
 .appix-btn {
     background-color: #4a4fff;
     color: #fff;
@@ -51,11 +45,12 @@ body {
     padding: 10px 20px;
     border-radius: 8px;
     font-weight: 500;
-    transition: background 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .appix-btn:hover {
-    background-color: #3737e1;
+    background-color: #8e44ad;
+    font-size: 16px;
 }
 
 .appix-signup {
@@ -117,11 +112,12 @@ body {
     text-decoration: none;
     display: inline-block;
     font-weight: 500;
-    transition: background 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .appix-action-btn:hover {
-    background-color: #3737e1;
+    background-color: #8e44ad;
+    font-size: 16px;
 }
 
 .appix-action-image {
@@ -319,6 +315,11 @@ body {
     color: #333;
     background-color: #fff;
     transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.appix-contact-form textarea {
+    box-sizing: border-box;
 }
 
 .appix-form-input:focus {
@@ -370,7 +371,7 @@ body {
 }
 
 .appix-footer {
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     background: #ecf0f1;
